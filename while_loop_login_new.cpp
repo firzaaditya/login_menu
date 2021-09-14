@@ -139,7 +139,7 @@ int main() {
         }
       }
 
-      check_login_admin = (username == adminuser) && (password == adminpass);
+      //check_login_admin = (username == adminuser) && (password == adminpass);
       if (check_login_admin) {
         system("cls");
         cout << "--------------------------------------\n" << endl;
@@ -193,7 +193,7 @@ int main() {
       }
     }
 
-    check_login_member = (username == memberuser) && (password == memberpass);
+    //check_login_member = (username == memberuser) && (password == memberpass);
     if (check_login_member) {
       system("cls");
       cout << "--------------------------------------\n" << endl;
